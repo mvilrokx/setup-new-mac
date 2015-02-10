@@ -101,7 +101,7 @@ Just open the file and change it as you want by adding or removing apps in the l
 These are the fonts that I use, again, open the script and change as you see fit for your personal preference.
 
 # Backup and restore settings from your current Mac
-Mackup is a community-driven tool for backing up and restoring system and application settings. You can find the list of applications it supports in the [lra/mackup](https://github.com/lra/mackup/tree/master/mackup/applications) repo.  If you ran the script <pre>brew_binaries.sh</pre> unchanged from this repo, you already have mackup installed, otherwise you can add it now with
+Mackup is a community-driven tool for backing up and restoring system and application settings. You can find the list of applications it supports in the [lra/mackup](https://github.com/lra/mackup/tree/master/mackup/applications) repo.  If you ran the script `brew_binaries.sh` unchanged from this repo, you already have mackup installed, otherwise you can add it now with
 
     $ brew install mackup
 
@@ -116,4 +116,4 @@ Then, on your new Mac you can restore all these settings with:
     $ mackup restore
 
 # Remove Oracle deamons
-If you want to gain back precious system resources you can disable the Oracle software deamons on your Mac.  You do this by going to <pre>/Library/LaunchAgents</pre> and  <pre>/Library/LaunchDaemons/</pre> and remove the plist files related to MyDesktop and McAfee Virus scanner.  Then restart your Mac.
+If you want to gain back precious system resources you can disable the Oracle software deamons on your Mac.  You do this by going to `/Library/LaunchAgents` and  `/Library/LaunchDaemons/` and remove the plist files related to MyDesktop and McAfee Virus scanner.  Then restart your Mac.
