@@ -1,10 +1,10 @@
 # Introduction
 This repo contains some scripts and instructions for how to setup a brand new Mac.  As I am a developer, most of this is geared towards preping your Mac for software development but feel free to clone this repo and adapt to your needs.
 
-[credit][http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac]
+[credit](http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac)
 
 # Install Homebrew
-The first tool you should install on your Mac is [Homebrew][http://brew.sh/], the self-proclaimed "missing package manager for OS X".  We will use Homebrew  in the next steps to install all the other software we need.  Use the script homebrew_installer.sh to install Homebrew (or follow the instruction on [their website][http://brew.sh/]):
+The first tool you should install on your Mac is [Homebrew](http://brew.sh/), the self-proclaimed "missing package manager for OS X".  We will use Homebrew  in the next steps to install all the other software we need.  Use the script homebrew_installer.sh to install Homebrew (or follow the instruction on [their website](http://brew.sh/)):
 
     $ chmod 755 homebrew_installer.sh
     $ ./homebrew_installer.sh
@@ -31,7 +31,7 @@ You'll also need to update the $PATH in your ~/.bash_profile in order to use the
     $ chmod 755 brew_binaries.sh
     $ ./brew_binaries.sh
 
-This script will also install [fish][http://fishshell.com/] (friendly interactive shell) which is a smart and user-friendly command line shell for OS X, Linux, and the rest of the family.  In order to use fish as your default shell, you do the following:
+This script will also install [fish](http://fishshell.com/) (friendly interactive shell) which is a smart and user-friendly command line shell for OS X, Linux, and the rest of the family.  In order to use fish as your default shell, you do the following:
 
 // Add Fish to /etc/shells, which will require an administrative password:
 
@@ -82,7 +82,7 @@ After you have homebrew installed, you'll want to install Homebrew Cask:
 
     brew install caskroom/cask/brew-cask
 
-The number of apps you can install with Cask is enormous and growing every day. You can take a look at what applications are installable in their [caskroom/homebrew-cask repo][https://github.com/caskroom/homebrew-cask/tree/master/Casks] or you can search for applications from the CLI, e.g. searching foor Chrome:
+The number of apps you can install with Cask is enormous and growing every day. You can take a look at what applications are installable in their [caskroom/homebrew-cask repo](https://github.com/caskroom/homebrew-cask/tree/master/Casks) or you can search for applications from the CLI, e.g. searching foor Chrome:
 
     brew cask search /google-chrome/
 
@@ -101,7 +101,7 @@ Just open the file and change it as you want by adding or removing apps in the l
 These are the fonts that I use, again, open the script and change as you see fit for your personal preference.
 
 # Backup and restore settings from your current Mac
-Mackup is a community-driven tool for backing up and restoring system and application settings. You can find the list of applications it supports in the [lra/mackup][https://github.com/lra/mackup/tree/master/mackup/applications] repo.  If you ran the script <pre>brew_binaries.sh</pre> unchanged from this repo, you already have mackup installed, otherwise you can add it now with
+Mackup is a community-driven tool for backing up and restoring system and application settings. You can find the list of applications it supports in the [lra/mackup](https://github.com/lra/mackup/tree/master/mackup/applications) repo.  If you ran the script <pre>brew_binaries.sh</pre> unchanged from this repo, you already have mackup installed, otherwise you can add it now with
 
     $ brew install mackup
 
